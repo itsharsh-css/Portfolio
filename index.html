@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    .photo-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo-section img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #00bcd4;
+      object-fit: cover;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #00bcd4;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    .profile-info p,
+    .education p,
+    .project p,
+    .contact p {
+      margin: 10px 0;
+    }
+
+    .education-entry,
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .school-name,
+    .project-title {
+      font-weight: bold;
+    }
+
+    .location-year {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <div class="container">
+    <!-- Photo Section -->
+    <div class="photo-section">
+      <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Profile Photo">
+    </div>
+
+    <!-- Profile Info -->
+    <div class="profile-info">
+      <h2>Harsh Nilesh Natekar</h2>
+      <p><strong>Email:</strong> harsh.n.natekar@gmail.com</p>
+      <p><strong>About Me:</strong> I am Harsh Natekar, a motivated and detail-oriented third-year Computer Engineering student at Agnel Institute of Technology and Design (AITD), with a strong passion for Software Development and Artificial Intelligence (AI).. With a proactive approach to learning, I am always eager to acquire new skills and knowledge. Known for my willingness to guide and support
+others, I am a reliable and motivated individual committed to personal and professional growth. I have a hobby in sports like cricket and football.
+</p>
+      <p><strong>Skills:</strong> C, C++, HTML, CSS, JavaScript</p>
+    </div>
+
+    <!-- Education Section -->
+    <div class="education">
+      <h2>Education</h2>
+
+      <div class="education-entry">
+        <p class="school-name">Agnel Institute of Technology and Design</p>
+        <p class="location-year">Assagao, Goa | 2022 - 2026</p>
+        <p>BE in Computer Engineering</p>
+      </div>
+
+      <div class="education-entry">
+        <p class="school-name">Estellar Higher Secondary School of Excellence</p>
+        <p class="location-year">Porvorim, Goa | 2020 - 2022</p>
+        <p>HSSC (Goa Board) – Science | Percentage: 66.83%</p>
+      </div>
+
+      <div class="education-entry">
+        <p class="school-name">St. Britto High School</p>
+        <p class="location-year">Mapusa, Goa | 2014 - 2020</p>
+        <p>SSC (Goa Board) | Percentage: 78.16%</p>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <p class="project-title">MyBank (C#, VS Code)</p>
+        <p>Developed a desktop app with role-based access (Cashier, Clerk, Manager) for secure banking operations, including customer onboarding, transactions, fund transfers, and passbook history. Used ADO.NET for CRUD operations and real-time SQL Server updates. Demonstrated event-driven UI design and secure transaction handling.</p>
+      </div>
+
+      <div class="project">
+        <p class="project-title">Hospital Management System (HTML, CSS, JavaScript, PHP, MySQL)</p>
+        <p>Developed a responsive web app using HTML5, CSS3, JavaScript, PHP, and MySQL, featuring secure user authentication, appointment booking, and dynamic doctor-ward relationship displays. Designed intuitive UIs with Flexbox, transitions, and modular CSS for maintainability. Implemented form validation, session management, and CRUD operations for appointments with client and server-side security.</p>
+      </div>
+
+      <div class="project">
+        <p class="project-title">Bank Management System (C++)</p>
+        <p>Designed and implemented an object-oriented Bank Management System using C++, supporting Savings and Current account types. The system includes features such as account creation, deposit and withdrawal transactions, interest and fee handling, and timestamped transaction history using the time library. Utilized inheritance, polymorphism, and friend classes to structure functionalities across Account, Savings, Current, Transaction, and Bank classes.</p>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+      <p><strong>Email:</strong> harsh.n.natekar@gmail.com</p>
+	  <p><strong>LinkedIn:</strong>https://www.linkedin.com/in/harsh-natekar-301953299/</p>
+	  <p><strong>GitHub:</strong>https://github.com/itsharsh-css</p>
+      <p><strong>Address:</strong> Verla, Bardez, Goa, India</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Harsh Natekar. All rights reserved.
+  </footer>
+</body>
+</html>
